@@ -4,11 +4,11 @@ import simg2 from "../images/cat-11 - Copy.png";
 import simg3 from "../images/cat-12 - Copy.png";
 import simg4 from "../images/cat-13 - Copy.png";
 import { Rating } from "../common/ratting";
-import { useCart } from "react-use-cart";
-import { Link } from "react-router-dom";
+// import { useCart } from "react-use-cart";
+// import { Link } from "react-router-dom";
 
 function Selliteam() {
-  const { addItem, inCart } = useCart();
+  // const { addItem, inCart } = useCart();
   const sell = [
     {
       id: 1,

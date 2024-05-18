@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import logo from "../images/logo.svg";
 import { Link, NavLink } from "react-router-dom";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+// import { BsFillMoonStarsFill } from "react-icons/bs";
 
 function Header(props) {
   const [on, off] = useState(false);
@@ -147,10 +147,10 @@ function Header(props) {
   
 
   const get = useRef();
-  const removecard = () => {
-    setvalue(get.current.focus());
-    setvalue("")
-  };
+  // const removecard = () => {
+  //   setvalue(get.current.focus());
+  //   setvalue("")
+  // };
   // const moon1 =document.getElementById("dark-mood1")
   // const moon2 =document.getElementById("dark-mood2")
   // const body =document.getElementById("root")
